@@ -10,5 +10,5 @@ jobs:
       with:
         go-version: '^1.18'
     - name: test
-      run: go test ./...
+      run: make
     timeout-minutes: 10
